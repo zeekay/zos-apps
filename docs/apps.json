@@ -1,0 +1,127 @@
+{
+  "apps": {
+    "ai.hanzo.calculator": {
+      "name": "Calculator",
+      "version": "1.0.0",
+      "cdn": "https://cdn.jsdelivr.net/gh/zeekay/zos-apps@main/apps/calculator/dist/index.js",
+      "manifest": {
+        "identifier": "ai.hanzo.calculator",
+        "name": "Calculator",
+        "version": "1.0.0",
+        "description": "A simple calculator for basic math operations",
+        "author": "Hanzo AI",
+        "category": "utilities",
+        "icon": "🧮",
+        "permissions": [],
+        "repository": "https://github.com/zeekay/zos-apps",
+        "window": {
+          "defaultSize": {
+            "width": 280,
+            "height": 400
+          },
+          "resizable": false
+        }
+      }
+    },
+    "ai.hanzo.clock": {
+      "name": "Clock",
+      "version": "1.0.0",
+      "cdn": "https://cdn.jsdelivr.net/gh/zeekay/zos-apps@main/apps/clock/dist/index.js",
+      "manifest": {
+        "identifier": "ai.hanzo.clock",
+        "name": "Clock",
+        "version": "1.0.0",
+        "description": "World clock, timer, and stopwatch",
+        "author": "Hanzo AI",
+        "category": "utilities",
+        "icon": "🕐",
+        "permissions": [],
+        "repository": "https://github.com/zeekay/zos-apps",
+        "window": {
+          "defaultSize": {
+            "width": 320,
+            "height": 400
+          },
+          "resizable": false
+        }
+      }
+    },
+    "ai.hanzo.notes": {
+      "name": "Notes",
+      "version": "1.0.0",
+      "cdn": "https://cdn.jsdelivr.net/gh/zeekay/zos-apps@main/apps/notes/dist/index.js",
+      "manifest": {
+        "identifier": "ai.hanzo.notes",
+        "name": "Notes",
+        "version": "1.0.0",
+        "description": "Quick notes and markdown editor",
+        "author": "Hanzo AI",
+        "category": "productivity",
+        "icon": "📝",
+        "permissions": [
+          "storage.local"
+        ],
+        "repository": "https://github.com/zeekay/zos-apps",
+        "window": {
+          "defaultSize": {
+            "width": 500,
+            "height": 600
+          },
+          "resizable": true
+        }
+      }
+    },
+    "ai.hanzo.todo": {
+      "name": "Reminders",
+      "version": "1.0.0",
+      "cdn": "https://cdn.jsdelivr.net/gh/zeekay/zos-apps@main/apps/todo/dist/index.js",
+      "manifest": {
+        "identifier": "ai.hanzo.todo",
+        "name": "Reminders",
+        "version": "1.0.0",
+        "description": "Task list and reminders",
+        "author": "Hanzo AI",
+        "category": "productivity",
+        "icon": "✅",
+        "permissions": [
+          "storage.local"
+        ],
+        "repository": "https://github.com/zeekay/zos-apps",
+        "window": {
+          "defaultSize": {
+            "width": 380,
+            "height": 500
+          },
+          "resizable": true
+        }
+      }
+    },
+    "ai.hanzo.weather": {
+      "name": "Weather",
+      "version": "1.0.0",
+      "cdn": "https://cdn.jsdelivr.net/gh/zeekay/zos-apps@main/apps/weather/dist/index.js",
+      "manifest": {
+        "identifier": "ai.hanzo.weather",
+        "name": "Weather",
+        "version": "1.0.0",
+        "description": "Weather forecast and conditions",
+        "author": "Hanzo AI",
+        "category": "utilities",
+        "icon": "🌤️",
+        "permissions": [
+          "network"
+        ],
+        "repository": "https://github.com/zeekay/zos-apps",
+        "window": {
+          "defaultSize": {
+            "width": 360,
+            "height": 480
+          },
+          "resizable": false
+        }
+      }
+    }
+  },
+  "updated": "2025-12-26T02:24:25.471Z",
+  "version": "1.0.0"
+}

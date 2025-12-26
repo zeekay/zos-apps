@@ -1,0 +1,16 @@
+{
+  "name": "zos-apps",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.15.1",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "build:registry": "node scripts/build-registry.js"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}
