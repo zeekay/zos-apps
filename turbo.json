@@ -4,6 +4,7 @@
     "build": {
       "outputs": ["dist/**"]
     },
+    "typecheck": {},
     "dev": {
       "cache": false,
       "persistent": true

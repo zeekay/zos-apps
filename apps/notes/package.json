@@ -19,7 +19,8 @@
   },
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "typecheck": "../../node_modules/tsgo/bin/tsc --noEmit --incremental false"
   },
   "peerDependencies": {
     "react": "^18.0.0",
@@ -29,6 +30,6 @@
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
-    "typescript": "^5.7.2"
+    "typescript": "6.0.3"
   }
 }
